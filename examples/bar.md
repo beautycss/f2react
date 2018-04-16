@@ -16,7 +16,7 @@ const data = [
   { x: '1962 年', y: 38 },
 ];
 
-// @autoWidth() 1. 引入autoWidth 2. 去掉width设置
+// @autoWidth() 1. 引入autoWidth 2. 去掉width属性
 export default class MyComponent extends Component {
   state = {
     width: 300,
@@ -29,11 +29,13 @@ export default class MyComponent extends Component {
   });
 
   render() {
-    <Bar
-      width={this.state.width}
-      height={this.state.height}
-      data={data}
-    />
+    return (
+      <Bar
+        width={this.state.width}
+        height={this.state.height}
+        data={data}
+      />
+    );
   };
 }
 ```
