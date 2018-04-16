@@ -24,6 +24,7 @@ $ npm i f2react --save
 ## 组件使用
 
 ```js
+import React, { Component } from 'react';
 import createF2 from 'f2react';
 
 const data = [
@@ -51,9 +52,10 @@ React.render(
 );
 ```
 
-## 属性说明
+## 使用说明
 
-详细使用见 [f2](https://antv.alipay.com/zh-cn/f2/3.x/api/index.html) 的官方API
+* 自适应宽度请查看 [autoWidth组件](https://github.com/beautycss/f2react/blob/master/examples/autoWidth.js)
+* 图表详细使用请查看 [f2](https://antv.alipay.com/zh-cn/f2/3.x/api/index.html) 官方API
 
 <table class="table table-bordered table-striped">
   <thead>
@@ -67,7 +69,7 @@ React.render(
   <tbody>
     <tr>
       <td>width</td>
-      <td>number(必须)</td>
+      <td>number(必须，若不使用autoWidth组件)</td>
       <td></td>
       <td>图表宽度</td>
     </tr>
