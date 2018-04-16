@@ -23,6 +23,7 @@ export default class MyComponent extends Component {
     height: 300,
   }
 
+  // 在component里建议这样使用
   Bar = createF2((chart) => {
     chart.interval().position('x*y');
     chart.render();
@@ -30,7 +31,7 @@ export default class MyComponent extends Component {
 
   render() {
     return (
-      <Bar
+      <this.Bar
         width={this.state.width}
         height={this.state.height}
         data={data}

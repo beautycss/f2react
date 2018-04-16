@@ -51,6 +51,7 @@ React.render(
   />
 );
 ```
+若在React工程中使用，建议看`examples`里的例子。
 
 ## 属性说明
 
