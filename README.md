@@ -12,7 +12,7 @@
 
 ## 示例Demo
 
-- [简单使用的例子](https://github.com/beautycss/f2react/tree/master/examples)
+- [简单使用及自适应宽度的例子](https://github.com/beautycss/f2react/tree/master/examples)
 - [结合Antd Mobile和Dva的例子](https://github.com/beautycss/antd-mobile-dva-f2)
 
 ## 组件安装
@@ -52,9 +52,8 @@ React.render(
 );
 ```
 
-## 使用说明
+## 属性说明
 
-* 自适应宽度请查看 [autoWidth组件](https://github.com/beautycss/f2react/blob/master/examples/autoWidth.js)
 * 图表详细使用请查看 [f2](https://antv.alipay.com/zh-cn/f2/3.x/api/index.html) 官方API
 
 <table class="table table-bordered table-striped">
