@@ -55,8 +55,6 @@ React.render(
 
 ## 属性说明
 
-* 图表详细使用请查看 [f2](https://antv.alipay.com/zh-cn/f2/3.x/api/index.html) 官方API
-
 <table class="table table-bordered table-striped">
   <thead>
     <tr>
@@ -93,3 +91,5 @@ React.render(
     </tr>
   </tbody>
 </table>
+
+* 图表详细使用请查看 [F2官方API](https://antv.alipay.com/zh-cn/f2/3.x/api/index.html)
